@@ -1,17 +1,25 @@
 {
   "name": "covid-dashboard",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "---",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "puf17640",
+  "license": "WTFPL",
   "dependencies": {
     "ejs": "3.1.2",
     "express": "4.17.1",
     "novelcovid": "2.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/puf17640/covid-dashboard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/puf17640/covid-dashboard/issues"
+  },
+  "homepage": "https://github.com/puf17640/covid-dashboard#readme"
 }
