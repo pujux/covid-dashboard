@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>COVID19 Dashboard</title>
+  <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+  <div class="container">
+    <h1>COVID19 Dashboard</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Cases</th>
+          <th>Active</th>
+          <th>Recovered</th>
+          <th>Deaths</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Global</strong></td>
+          <td><strong><%= global.cases %></strong></td>
+          <td><strong><%= global.active %></strong></td>
+          <td><strong><%= global.recovered %></strong></td>
+          <td><strong><%= global.deaths %></strong></td>
+        </tr>
+        <% for(const country of countries) { %>
+          <tr>
+            <td><%= country.country %></td>
+            <td><%= country.cases %></td>
+            <td><%= country.active %></td>
+            <td><%= country.recovered %></td>
+            <td><%= country.deaths %></td>
+          </tr>
+        <% } %>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
