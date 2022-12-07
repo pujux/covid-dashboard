@@ -11,7 +11,7 @@
   "license": "WTFPL",
   "dependencies": {
     "ejs": "3.1.2",
-    "express": "4.17.1",
+    "express": "4.18.2",
     "novelcovid": "2.0.0"
   },
   "repository": {
